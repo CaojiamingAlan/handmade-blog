@@ -11,4 +11,4 @@ css
 public
 disti
 
-!app/public/assets/*
+!/app/public/assets/*
