@@ -38,7 +38,7 @@ tags: "order topology, product topology, subspace topology"
 
 直觉上来讲，就是这些十字能够交叉出正方形（意思是这么个意思，我也知道我的解释很不靠谱=w=）
 
-![dummy image](../assets/img0.png)
+![dummy image](../../static/img0.png)
 
 # The Subspace Topology
 
