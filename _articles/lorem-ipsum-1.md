@@ -42,4 +42,22 @@ tags: "order topology, product topology, subspace topology"
 
 # The Subspace Topology
 
-> to do
+> Let X be a topological space with topology T. If Y is a subset of X, the collection $`T_y = \{ Y \cap U | U \in T\}`$ is a topology on Y, called the subspace topology
+
+拓扑中每个开集与子集的交集的集族构成子拓扑。
+
+>Lemma 16.1 $`B_y = \{ b \cap U | b \in B\}`$ is a basis for the subspace topology on Y
+
+拓扑的基中的元素与子集的交集的集族构成子拓扑的基。
+
+>Lemma 16.2 If U is open in Y and Y is open in X, then U is open in X
+
+开集性质的传递性
+
+>Lemma 16.3 If A is a subspace of X and B is a subspace of Y, then the product topology on A $`\times`$B is the same as the topology A $`\times`$B inherits as a subspace of X $`\times`$Y
+
+> Convex(subset): Given an ordered set X, a subset Y is convex in X if for each pair of points a < b of Y, the entire interval (a, b) of points of X lies in Y. Intervals and rays are convex in X
+
+好像没有不连续的情况...吧？
+
+>Thereom 16.4 Let X be an ordered set in the order topology; let Y be a subset of X that is convex in X. Then the order topology on Y is the same as the topology Y inherits as a subspace of X. 
