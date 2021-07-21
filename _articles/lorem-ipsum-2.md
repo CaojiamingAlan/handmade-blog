@@ -53,7 +53,16 @@ tags: "closed set, limit points"
 
 拓扑学中最重要的概念之一。异常符合直觉，以至于我在看到这里之前都没有察觉到非Hausdorff空间的存在。这里书中应该是写落下了，所以我们补上在拓扑空间中数列收敛的定义：
 
+$`X_n`$ converges to x if and only if for each open neighborhood U of x there is an m $`in`$ N such that $`X_n`$ $`in`$ U whenever n $`\geq`$ m
+
+在这里，实数轴的经验开始不再适用。实数轴是稠密的，也就是说任何一个数字都有任意小的邻域。在离散的空间中则不是这样的，如下图：
 
 ![dummy image](../../static/img2.png)
 
-如图所示，
+如果有一个数列{b},那么根据定义，这个数列收敛至a,b,c。因为对于a和c来说，确确实实他们的每一个邻域都包含了b。但是在实际应用中，这种空间并不是很有研究价值（我没研究过，书上说的），所以我们想规避这种空间，以对大多数空间普适的结论。
+
+> Hausdorff space: A topological space X is called a Hausdorff space if for each pair $`x_1`$, $`x_2`$ of distinct points pf X, there exists neighborhoods $`U_1`$, $`U_2`$ of $`x_1`$, $`x_2`$, respectively, that are disjoint.
+
+Hausdorff空间不一定是稠密的；只要拓扑空间中包含了每一个元素单独构成的开集，那么这个空间就是一个Hausdorff空间。当然，这不是Hausdorff空间的必要条件。
+
+to be continued...
