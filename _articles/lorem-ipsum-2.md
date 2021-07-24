@@ -63,6 +63,18 @@ $`X_n`$ converges to x if and only if for each open neighborhood U of x there is
 
 > Hausdorff space: A topological space X is called a Hausdorff space if for each pair $`x_1`$, $`x_2`$ of distinct points pf X, there exists neighborhoods $`U_1`$, $`U_2`$ of $`x_1`$, $`x_2`$, respectively, that are disjoint.
 
-Hausdorff空间不一定是稠密的；只要拓扑空间中包含了每一个元素单独构成的开集，那么这个空间就是一个Hausdorff空间。当然，这不是Hausdorff空间的必要条件。
+Hausdorff空间不一定是稠密的；只要拓扑空间中包含了每一个元素单独构成的开集，那么这个空间就是一个Hausdorff空间。当然，这不是Hausdorff空间的必要条件（比如实数轴的标准拓扑；无法通过有限个开区间相交形成单个点的集合）。
 
-to be continued...
+> Thereom 17.8 Every finite point set in a Hausdorff space X is closed
+
+Hausdorff空间每一个单个的点构成的集合都是它自己的闭包。所以，有限的点集合一定是闭集。实际上，有限集合为闭集这一条件称为$`T_1`$ axiom，这个条件比Hausdorff空间更宽松。
+
+> Thereom 17.9 Let X be a space satisfying the $`T_1`$ axiom; let A be a subset of X. Then the point x is a limit point of A iff every neighborhood of x contains infinitely many points of A.
+
+> Thereom 17.10 If X is a Hausdorff space, then a sequence of points of X conerges to at most one point of X.
+
+Hausdorff空间中数列只有唯一的极限，这就解决了我们前面提到的问题。
+
+> Thereom 17.11 Every simply ordered set is Hausdorff space in the order topology. The product of two Hausdorff spaces is a Hausdorff space. A subspace of a Hausdorff space is a Hausdorff space.
+
+构造Hausdorff空间的常见方式。
