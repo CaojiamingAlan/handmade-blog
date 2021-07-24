@@ -1,9 +1,9 @@
 ---
-id: 3
+id: 2
 title: "拓扑学习笔记（3）"
 subtitle: "Topology notes"
 date: "2021.7.17"
-tags: "closed set, limit points"
+tags: "closed set, limit points, Hausdorff space"
 ---
 
 本篇对应原书第17章的内容

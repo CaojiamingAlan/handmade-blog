@@ -33,7 +33,7 @@ X被称为一个拓扑空间。T中的元素被称为开集（open set）。拓�
 
 >(2) If x belongs to the intersection of two basis elements $`B_1`$ and $`B_2`$, then there is a basis element $`B_3`$ containing x such that $`B_3`$ $`\subset`$ $`B_1`$ $`\cap`$ $`B_2`$
 
->A subset U of X is said to be open in X if for each x $`in`$ U, there is a basis element b $`in`$ B such that x $`in`$ b abd b $`subset`$ U
+>A subset U of X is said to be open in X if for each x $`in`$ U, there is a basis element b $`\in`$ B such that x $`\in`$ b abd b $`\subset`$ U
 
 如同线性代数的概念一样，一个拓扑也被它的基“生成”。区别在于，一个拓扑的基可以有多个，而且基的元素之间可以相交。
 
